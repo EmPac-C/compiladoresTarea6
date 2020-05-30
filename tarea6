@@ -1,0 +1,32 @@
+Gramatica 1 Aumentada:
+0) S' -> S
+1) S -> SS+
+2) S -> SS*
+3) S -> a
+
+
+Gramatica 2 Aumentada:
+0) S' -> S
+1) S -> V=E
+2) E -> V
+3) E -> n
+4) V -> id
+
+
+
+Gramatica 3 Aumentada:
+0) S' -> S
+1) S -> A 
+2) S -> x b
+3) A -> a A b
+4) A -> B
+3) B -> x
+
+
+
+Gramatica 4 Aumentada:
+0) T' -> T
+1) T -> T F
+2) T -> F
+3) F -> F*
+4) F -> a
